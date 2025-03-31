@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReoN Bus Booking</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/index.html" class="logo">ReoN Bus Booking</a>
+            <ul class="nav-links">
+                <li><a href="../page1/index.html">Book Here</a></li>
+                <li><a href="../page2/index.html">Choose Seats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seat-selection">
+            <ul class="showcase">
+                <li><div class="seat"></div><small>Available</small></li>
+                <li><div class="seat selected"></div><small>Selected</small></li>
+                <li><div class="seat sold"></div><small>Sold</small></li>
+            </ul>
+
+            <div class="container">
+                <div class="row">
+                    <div class="seat"></div><div class="seat"></div><div class="seat"></div>
+                    <div class="seat"></div><div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div><div class="seat"></div><div class="seat"></div>
+                    <div class="seat sold"></div><div class="seat sold"></div>
+                </div>
+                <div class="row">
+                    <div class="seat sold"></div><div class="seat sold"></div><div class="seat"></div>
+                    <div class="seat"></div><div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div><div class="seat"></div><div class="seat"></div>
+                    <div class="seat"></div><div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div><div class="seat"></div><div class="seat"></div>
+                    <div class="seat sold"></div><div class="seat sold"></div>
+                </div>
+            </div>
+
+            <p class="text">
+                You have selected <span id="count">0</span> seat(s) for a price of Php <span id="total">0</span>.
+            </p>
+            <button id="payButton">Pay Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <p><strong>Contact Us:</strong></p>
+                <p><i class="fa-regular fa-envelope"></i> barondejesus7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +0987-345-765</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/dionelamusic" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/dionelaofficial" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+            <div class="quick-links">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 ReoN Bus Booking. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../page2/assets/js/scripts.js"></script>
+</body>
+</html>
